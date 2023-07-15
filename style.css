@@ -1,0 +1,507 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    height:auto;
+  
+}
+
+.header-bar {
+    width: 100%;
+    height: 38px;
+    background-color: rgba(220, 220, 220, 0.772);
+   
+}
+
+.h-div {
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.header-img1 {
+    height: 30px;
+}
+
+.header-img2 {
+    height: 30px;
+}
+
+.header-img3 {
+    height: 25px;
+}
+
+.navigation-bar {
+    width: 100%;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+   
+}
+
+.nav1 {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+    color: gray;
+    list-style: none;
+}
+
+.nav1 img {
+    width: 50px;
+}
+
+.nav2 {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.btn1 {
+    width: 400px;
+    height: 45px;
+    border: 1px solid rgba(128, 128, 128, 0.572);
+    font-size: 16px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.btn2 {
+    width: 90px;
+    height: 32px;
+    background-color: black;
+    border: none;
+    color: rgba(255, 255, 255, 0.861);
+    font-size: 18px;
+}
+
+.container1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.container1-img-part {
+    width: 65%;
+    height: 600px;
+    background-image: url("image/asset\ 5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container1-text-part {
+    width: 35%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div1 {
+    width: 100%;
+    height: 240px;
+    background-color: rgb(64, 223, 250);
+    font-size: 30px;
+    padding: 20px;
+}
+
+.div2 {
+    width: 100%;
+    height: 360px;
+    background-color: rgb(160, 239, 253);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+   
+}
+
+.div2 p {
+    font-size: 20px;
+}
+
+.content1 {
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+}
+.consider{
+    width: 90%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.content1 p {
+    font-size: 25px;
+}
+
+.content2 {
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+}
+
+.content3 {
+    width: 100%;
+    height: 150px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.b2 {
+    width: 90%;
+    height: 30px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.b2 ul{
+    list-style: non;
+}
+.learn-btn {
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+
+.store-btn {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+
+.equire-btn {
+    width: 171px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+/* Start Second Part */
+.second-part {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hey {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+}
+
+.hey-hr{
+    width: 26%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+.today {
+    width: 91%;
+    height: 80px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    
+}
+
+.today p {
+    font-size: 35px;
+}
+
+.second-main-img{
+    width: 96%;
+    height: 520px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+.s-img1{
+    width: 380px;
+    height: 450px;
+   border: 1px solid black;
+}
+.second-img{
+    width: 380px;
+    height: 390px;
+}
+.second-img img{
+    width: 380px;
+    height: 390px;
+}
+.second-gray{
+    width: 380px;
+    height: 58px;
+   background-color: rgb(33,34,55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-gray p{
+    font-size: 30px;
+    color: white;
+}
+.s-img1{
+    width: 380px;
+    height: 450px;
+}
+.s-img1{
+    width: 380px;
+    height: 450px;
+}
+
+/* End Second Section */
+.main-workforce {
+    width: 100%;
+    height: 490px;
+    padding: 0 63px;
+    display: flex;
+}
+
+.img-workforce {
+    width: 57%;
+    height: 440px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.img-workforce img {
+    width: 710px;
+    height: 440px;
+}
+
+.text-workforce {
+    width: 41%;
+    height: 440px;
+
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.hp-text {
+    width: 94%;
+    height: 130px;
+    border-bottom: 1px solid black;
+   
+}
+
+.hp-text h1 {
+    font-size: 50px;
+}
+
+.empower {
+    width: 94%;
+    height: 175px;
+
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.empower p {
+    font-size: 25px;
+}
+
+.btn {
+    width: 200px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+}
+
+.btn button {
+    width: 110px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.footer-bar {
+    width: 100%;
+    height: 580px;
+    background-color: black;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.know {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    border-bottom: 2px solid white;
+}
+
+.know p {
+    font-size: 28px;
+    color: white;
+}
+
+.know button {
+    width: 110px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 20px;
+
+}
+
+.country {
+    width: 100%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.country-p {
+    width: 85%;
+    height: 50px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.footer-text-ul {
+    width: 100%;
+    height: 280px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.footer-txt {
+    width: 85%;
+    height: 280px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    border-bottom: 1px solid white;
+}
+
+.footer-txt ul {
+    list-style: none;
+    
+}
+
+.footer-txt ul li a {
+    text-decoration: none;
+    line-height: 1.6;
+    color: white;
+}
+.footer-txt ul li a:hover{
+    text-decoration: underline;
+}
+.footer-txt i{
+    font-size: 25px;
+}
+.last-text{
+    width: 75%;
+    height: 50px;
+    /* background-color: salmon; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+    color: white;
+}
+.last-text a{
+    color: white;
+    text-decoration: none;
+}
+.last-text a:hover{
+    text-decoration: underline  ;
+}
+.link{
+    width: 100%;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    padding-left: 100px;
+}
+
+
+
+@media ( max-width: 768px){
+    
+}
